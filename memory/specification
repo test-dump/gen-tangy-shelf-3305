@@ -1,0 +1,26 @@
+Here is a basic example of a "Hello, World!" console application written in C#:
+
+```csharp
+// import the necessary library
+using System;
+
+// declare the namespace
+namespace HelloWorldApp {
+  
+    // main class
+    class Program {
+      
+        // main method
+        static void Main(string[] args) {
+          
+          // prints hello world to the console
+          Console.WriteLine("Hello, World!");
+
+          // Stop the console from closing immediately
+          Console.ReadKey();
+        }
+    }
+}
+```
+
+This program will print out "Hello, World!" on the console. The `Console.ReadKey();` at the end is used to prevent the console window from closing immediately. This line waits for the user to press a key before the program ends.
